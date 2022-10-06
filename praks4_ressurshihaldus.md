@@ -6,9 +6,9 @@
 | Kui kaua on arvuti järjest töötanud (up time) ?     |11min|6 min 36 sek |uptime|      tegumihaldur -> jõudlus     |
 | Milline protsess käivitati kõige hiljem (viimasena)?|\[kworker/u4:0-events_unbound| rundll32.exe  |   ps -efps |       procces explorer          |
 |Milline on kõige rohkem protsessoriaega võttev protsess?|/usr/bin/gnome-shell|     MsMpEng.exe |ps aux\| sort -nrk 3,3\|head -n 5| procces explorer|
-|Milline on kõige rohkem virtuaalmälu võttev protsess?|/usr/bin/gnome-shell|msedge.exe  |ps aux --sort=-%mem \| head|  procces explorer |
-|Milline on kõige rohkem füüsilist mälu (working set) võttev protsess?|/usr/bin/gnome-shell|MsMpEng.exe |ps aux --sort=-%mem| procces explorer|
-|Kui palju füüsilisest mälust (Physical Memory) on vaba?| 202084 K |1735884 K| vmstat|procces explorer -> System information|
+|Milline on kõige rohkem virtuaalmälu võttev protsess?|/usr/bin/gnome-shell    |msedge.exe      |ps aux --sort=-%mem \| head|      procces explorer |
+|Milline on kõige rohkem füüsilist mälu (working set) võttev protsess?|   /usr/bin/gnome-shell   |MsMpEng.exe      |ps aux --sort=-%mem|      procces explorer|
+|Kui palju füüsilisest mälust (Physical Memory) on vaba?|         202084 K            |1735884 K               | vmstat      |procces explorer -> System information|
 |Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt?|12.3 Gb 43%  |0.1 GB 0.3 % |df -x squashfs --total|winDirStat|
 |Milline on kõige suurem kõvakettal olev fail ja kõige suurem kaust?|/.cache/tracker3/files kaust , 
 /snap/firefox/common/.cache/mozilla/firefox/llfgb3pq.default/startupCache/scriptCache.bin| pagefile.sys  Windows(folder)|
