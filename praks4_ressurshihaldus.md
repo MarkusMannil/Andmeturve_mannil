@@ -12,7 +12,7 @@
 |Kui palju on põhikettal (C:, /) vaba ruumi mahult (GB) ja protsentuaalselt?|12.3 Gb 43%  |0.1 GB 0.3 % |df -x squashfs --total|winDirStat|
 |Milline on kõige suurem kõvakettal olev fail ja kõige suurem kaust?|/.cache/tracker3/files kaust , 
 /snap/firefox/common/.cache/mozilla/firefox/llfgb3pq.default/startupCache/scriptCache.bin| pagefile.sys  Windows(folder)|
-kaust : du -Sh | sort -rh | head -10 fail : find -type f -exec du -Sh {} + | sort -rh | head -n 5
+kaust : du -Sh \| sort -rh \| head -10 fail : find -type f -exec du -Sh {} + \| sort -rh \| head -n 5
 |winDirStat|
 
 Milline protsess kõige rohkem salvestusseadmele kirjutab, kõige rohkem salvestusseadmelt loeb? Millisesse faili antud protsess kõige rohkem kirjutab, millisest failist kõige rohkem loeb?
