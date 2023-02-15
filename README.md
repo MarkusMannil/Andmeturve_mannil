@@ -1,4 +1,4 @@
-# opsys_mannil
+# Andmeturve_mannil
 Markus Männil
 
 Olen informaatika ametlikult 2. aasta bakalauruse tudeng. 
