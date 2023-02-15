@@ -4,6 +4,7 @@
 ![](/pic/p1_01.png)
 
 ## Ülesanne 3
-![](/pic/p1_02.png)
+![](/pic/p1_03.png)
 
 ## Ülesanne 4
+![](/pic/p1_04.png)
