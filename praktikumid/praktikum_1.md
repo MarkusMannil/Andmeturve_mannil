@@ -1,5 +1,9 @@
 # Praktikum 1
 
+## Ülesanne 0, 1, 2
+![](/pic/p1_01.png)
 
-![Ülesanded 1,2 ja 3](/pics/p1_01)
+## Ülesanne 3
+![](/pic/p1_02.png)
 
+## Ülesanne 4
